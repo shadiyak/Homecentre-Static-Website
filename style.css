@@ -54,7 +54,7 @@ p{
 }
 .header-location-button{
     background-color: black;
-    border-color: black;
+    border: none;
     border-top-style: none;
     display: flex;
     
@@ -76,6 +76,28 @@ p{
     
 }
 
+/** HEADER 2**/
+
+.header-panel{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-panel-input{
+    width: 250px;
+    border: none;
+    
+
+}
+.input{
+    background-color: #a39c9cf1;
+    border: none;
+    border-top: none;
+    box-shadow: none;
+    
+}
 
 
 /** Body**/
@@ -248,21 +270,4 @@ p{
     
     
 
-}
-.header-panel{
-    display: flex;
-    height: 80px;
-    align-items: center;
-    justify-content: center;
-
-}
-.header-panel-input{
-    width: 250px;
-    border: none;
-    
-
-}
-.input{
-    background-color: #998b8bf1;
-    
 }
